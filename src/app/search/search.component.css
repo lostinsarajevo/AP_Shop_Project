@@ -1,17 +1,20 @@
-.container {
-    margin-top: 20px;
+.navbar {
+    padding-top: 20px;
 }
 
 select {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: gray;
+    background-color: lightgray;
     color: black;
+    margin-right: 5px;
+    padding-right: 5px;
 }
 
 button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: blue;
+    background-color: crimson;
     color: white;
+    
 }
 
 input {

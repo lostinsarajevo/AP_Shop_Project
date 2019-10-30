@@ -1,14 +1,12 @@
 <div class="navbar navbar-default">
-    <div class="container">
-        <div class="row">
-            <div class="navbar-brand">
-                Welcome, user!
-            </div>
-            <button class="btn btn-default pull-right" style="margin-top: 8px;">Purchase History</button>
-            <button class="btn btn-default pull-right" style="margin-top: 8px;">Cart</button>            
-        </div>
-    </div>
+  <a routerLink="/Account">
+    <div class="navbar-brand">Welcome, user!</div>
+  </a>
+  <button class="btn btn-default pull-left" style="margin-top: 8px;" routerLink=''>Log Out</button>
+  <button class="btn btn-default pull-right" style="margin-top: 8px;">Purchase History</button>
+  <button class="btn btn-default pull-right" style="margin-top: 8px;">Cart</button>
 </div>
+
 <div class="container">
-    <app-search></app-search>
+  <app-search></app-search>
 </div>

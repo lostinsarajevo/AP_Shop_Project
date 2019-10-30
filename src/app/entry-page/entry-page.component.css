@@ -3,7 +3,8 @@ button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1 {
+.navbar-brand {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 200;
+    color: crimson;
+    font-size: 200%;
 }
