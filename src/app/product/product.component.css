@@ -1,0 +1,24 @@
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+button {
+    margin-top: 35px;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: crimson;
+    color: white;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+.container {
+    background-color: lightgray;
+}
+
+#wrapper {width: 700px; margin:0 auto} 
+#wrapper .container {max-width: 100%; display: block;}

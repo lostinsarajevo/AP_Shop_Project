@@ -9,6 +9,8 @@ import { RegisterPageComponent } from './entry-page/register-page/register-page.
 import { HomePageComponent } from './home-page/home-page.component';
 import { SearchComponent } from './search/search.component';
 import { HeaderComponent } from './header/header.component';
+import { EntryHeaderComponent } from './entry-page/entry-header/entry-header.component';
+import { ProductComponent } from './product/product.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HeaderComponent } from './header/header.component';
     RegisterPageComponent,
     HomePageComponent,
     SearchComponent,
-    HeaderComponent
+    HeaderComponent,
+    EntryHeaderComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
