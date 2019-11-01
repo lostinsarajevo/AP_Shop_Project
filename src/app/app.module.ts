@@ -11,6 +11,7 @@ import { SearchComponent } from './search/search.component';
 import { HeaderComponent } from './header/header.component';
 import { EntryHeaderComponent } from './entry-page/entry-header/entry-header.component';
 import { ProductComponent } from './product/product.component';
+import { ProductDetailsComponent } from './product/product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProductComponent } from './product/product.component';
     SearchComponent,
     HeaderComponent,
     EntryHeaderComponent,
-    ProductComponent
+    ProductComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
