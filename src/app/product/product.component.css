@@ -1,24 +1,40 @@
 p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 10px;
 }
 
 button {
-    margin-top: 35px;
-    margin-right: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: crimson;
-    color: white;
+  margin-top: 12px;
+  margin-right: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: crimson;
+  color: white;
 }
 
-h3 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-bottom: 10px;
+.btn-details {
+  background-color: lightgray;
+  color: black;
+}
+
+.btn-cart {
+  margin-left: 13px;
+}
+
+h4 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container {
-    background-color: lightgray;
+  background-color: whitesmoke;
 }
 
-#wrapper { padding-top: 20px; width: 1000px; margin:0 auto} 
-#wrapper .container {max-width: 100%; display: block;}
+#wrapper {
+  padding-top: 20px;
+  width: 1000px;
+  margin: 0 auto
+}
+
+#wrapper .container {
+  max-width: 100%;
+  display: block;
+}
