@@ -1,37 +1,42 @@
 .table {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 th {
-    font-size: 110%;
+  font-size: 110%;
 }
+
 td {
-    font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .input-number {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 button {
-    background-color: crimson;
+  background-color: crimson;
 }
-input[readonly].classname{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:transparent;
-    border: 0;
-    font-size: 1em;
-    text-align: center;
-  }
+
+input[readonly].classname {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: transparent;
+  border: 0;
+  font-size: 1em;
+  text-align: center;
+}
+
 .btn-cart {
-    margin-left: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    
+  margin-left: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+
 }
+
 .btn-buy {
-    margin-left: 30px;
-    background-color: rgb(34, 52, 77);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    
+  margin-left: 30px;
+  background-color: rgb(34, 52, 77);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+
 }

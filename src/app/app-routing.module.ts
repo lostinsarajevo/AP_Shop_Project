@@ -6,15 +6,18 @@ import { RegisterPageComponent } from './entry-page/register-page/register-page.
 import { HomePageComponent } from './home-page/home-page.component';
 import { ProductDetailsComponent } from './product/product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 
 const routes: Routes = [
-  {path: '', component: EntryPageComponent},
-  {path: 'Login', component: LoginPageComponent},
-  {path: 'Register', component: RegisterPageComponent},
-  {path: 'Home', component: HomePageComponent},
-  {path: 'ProductDetails', component: ProductDetailsComponent},
-  {path: 'Cart', component: CartComponent}
+  { path: '', component: EntryPageComponent },
+  { path: 'Login', component: LoginPageComponent },
+  { path: 'Register', component: RegisterPageComponent },
+  { path: 'Home', component: HomePageComponent },
+  { path: 'ProductDetails', component: ProductDetailsComponent },
+  { path: 'Cart', component: CartComponent },
+  { path: 'Checkout', component: CheckoutComponent }
+
 
 ];
 

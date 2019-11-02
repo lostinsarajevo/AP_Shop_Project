@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { EntryPageComponent } from './entry-page/entry-page.component';
 import { LoginPageComponent } from './entry-page/login-page/login-page.component';
@@ -15,6 +15,7 @@ import { ProductDetailsComponent } from './product/product-details/product-detai
 import { CartComponent } from './cart/cart.component';
 import { ListedProductComponent } from './product/listed-product/listed-product.component';
 import { CartItemComponent } from './cart/cart-item/cart-item.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CartItemComponent } from './cart/cart-item/cart-item.component';
     ProductDetailsComponent,
     CartComponent,
     ListedProductComponent,
-    CartItemComponent
+    CartItemComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
