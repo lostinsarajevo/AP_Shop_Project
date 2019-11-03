@@ -1,34 +1,39 @@
 <app-entry-header></app-entry-header>
 <div class="container">
-  <h3>Register a new account.</h3>
-  <form action="">
-    <div class="form-group">
-      <label for="email">E-mail</label>
-      <input type="email" class="form-control" id="email" placeholder="E-mail">
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Register a new account.</h3>
+      <form #form="ngForm" autocomplete="off" (submit)="onSubmit(form)">
+        <div class="form-group">
+          <label>E-mail</label>
+          <input name="email" #email="ngModel" [(ngModel)]="service.formData.email" class="form-control"
+            placeholder="E-mail" required>
+          <div class="validation-error" *ngIf="email.invalid && email.touched">This field is required.</div>
+        </div>
+        <div class="form-group">
+          <label>Username</label>
+          <input name="username" #username="ngModel" [(ngModel)]="service.formData.username" placeholder="Username"
+            class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input name="password" #password="ngModel" [(ngModel)]="service.formData.password" class="form-control"
+            placeholder="Password" required>
+          <small id="emailHelp" class="form-text text-muted">We'll never ask for your account information.</small>
+          <div class="validation-error" *ngIf="password.invalid && password.touched">This field is required.</div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-3">
+            <div class="form-group">
+              <button type="submit" class="form-control btn btn-register" routerLink='/Login'
+                [disabled]="form.invalid">Submit</button>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
-    <div class="form-group">
-      <label for="username">Username</label>
-      <input type="text" class="form-control" id="username" placeholder="Username">
-    </div>
-    <div class="form-group">
-      <label for="password">Password</label>
-      <input type="text" class="form-control" id="username" placeholder="Password">
-      <small id="emailHelp" class="form-text text-muted">We'll never ask for your account information.</small>
-    </div>
-    <div class="form-group">
-      <label for="first_name">First name</label>
-      <input type="text" class="form-control" id="first_name" placeholder="First name">
-    </div>
-    <div class="form-group">
-      <label for="last_name">Last name</label>
-      <input type="text" class="form-control" id="last_name" placeholder="Last name">
-    </div>
-    <div class="form-group form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1" style="margin-right: 5px;">
-      <label class="form-check-label" for="exampleCheck1">I agree to all terms and conditions.</label>
-    </div>
-    <button type="submit" class="btn btn-default" routerLink='/Login'>Submit</button>
-  </form>
+  </div>
 </div>
+
 
 <router-outlet></router-outlet>

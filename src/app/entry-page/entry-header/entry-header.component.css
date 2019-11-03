@@ -1,11 +1,11 @@
-button {
-    margin: 10px;
+a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.navbar-brand {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: crimson;
+    color: red;
     font-size: 200%;
 }
 
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: auto !important;
+    right: 0px;
+  }
